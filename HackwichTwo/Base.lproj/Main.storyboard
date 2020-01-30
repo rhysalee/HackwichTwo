@@ -16,7 +16,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3vl-SW-hgg">
-                                <rect key="frame" x="119" y="270" width="64" height="30"/>
+                                <rect key="frame" x="122" y="102" width="64" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Press Me">
                                     <color key="titleColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -28,11 +28,12 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="juO-xM-eua">
-                                <rect key="frame" x="116" y="232" width="71" height="30"/>
+                                <rect key="frame" x="125" y="381" width="71" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Click Here"/>
                                 <connections>
                                     <action selector="ClickHereButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ngh-jL-FEf"/>
+                                    <segue destination="uI7-HT-91h" kind="show" id="jI4-OB-NxY"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -42,7 +43,23 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="132" y="137"/>
+            <point key="canvasLocation" x="-360" y="147"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="sUl-bu-rka">
+            <objects>
+                <viewController id="uI7-HT-91h" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Nt1-bT-UMS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="ajW-Pm-oUf"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="SUa-h1-XeH"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9sN-V3-Ulv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="332" y="147"/>
         </scene>
     </scenes>
 </document>
